@@ -18,15 +18,21 @@ The project is structured to support:
 ---
 
 ## Workspace Structure
+## Workspace Structure
+
+```text
 ws_ros2/
 ├── src/
-│ ├── swd_starter_kit_description/
-│ ├── swd_robot_bringup/
-│ ├── swd_robot_gazebo/
-│ ├── swd_robot_slam/
-│ ├── swd_robot_navigation/
-│ └── swd_robot_experiments/
-
+│   ├── swd_starter_kit_description/
+│   ├── swd_robot_bringup/
+│   ├── swd_robot_gazebo/
+│   ├── swd_robot_slam/
+│   ├── swd_robot_navigation/
+│   └── swd_robot_experiments/
+├── build/
+├── install/
+└── log/
+```
 ---
 
 ##  Setup
